@@ -36,10 +36,10 @@ This project demonstrates a simple command-line chatbot interface built using th
 
 ##  Getting Started in Google Colab
 
-### 1️ Open a new Colab Notebook  
+### 1️. Open a new Colab Notebook  
 Go to [Google Colab](https://colab.research.google.com/) and start a new Python 3 notebook.
 
-### 2️ Install Required Dependencies
+### 2️. Install Required Dependencies
 
 Paste the following in the first cell and run it:
 
