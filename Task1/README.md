@@ -1,21 +1,21 @@
-# 🤖 CLI Chatbot with TinyLlama and LangChain
+#  CLI Chatbot with TinyLlama and LangChain
 
 This project demonstrates a simple command-line chatbot interface built using the **TinyLlama** model with **LangChain** components, executed in **Google Colab**.
 
 ---
 
-## 📌 Features
+##  Features
 
-- 🧠 Uses TinyLlama language model from Hugging Face
-- 💬 Maintains conversational memory using a circular buffer
-- 🛠️ Modular design with clear class responsibilities
-- ✅ Runs interactively in Google Colab
+-  Uses TinyLlama language model from Hugging Face
+-  Maintains conversational memory using a circular buffer
+- 🛠 Modular design with clear class responsibilities
+-  Runs interactively in Google Colab
 
 ---
 
-## 🧱 Code Structure
+##  Code Structure
 
-### 📁 Classes
+###  Classes
 
 | Class        | Responsibility                                |
 |--------------|-----------------------------------------------|
@@ -25,7 +25,7 @@ This project demonstrates a simple command-line chatbot interface built using th
 
 ---
 
-## 🔑 Key Methods
+##  Key Methods
 
 - **`ModelLoader.load()`**: Downloads and returns the model and tokenizer  
 - **`ChatMemory.add(user_input, bot_response)`**: Adds conversation turns  
@@ -34,12 +34,12 @@ This project demonstrates a simple command-line chatbot interface built using th
 
 ---
 
-## 🚀 Getting Started in Google Colab
+##  Getting Started in Google Colab
 
-### 1️⃣ Open a new Colab Notebook  
+### 1️ Open a new Colab Notebook  
 Go to [Google Colab](https://colab.research.google.com/) and start a new Python 3 notebook.
 
-### 2️⃣ Install Required Dependencies
+### 2️ Install Required Dependencies
 
 Paste the following in the first cell and run it:
 
