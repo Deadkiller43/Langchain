@@ -103,6 +103,6 @@ class DebateSystem:
 def export_dag_diagram():
     system = DebateSystem()
     mermaid = system.graph.get_graph().draw_mermaid()
-    with open("dag_mermaid.md", "w") as f:
+    with open("dag_diagram.md", "w") as f:
         f.write("```mermaid\n" + mermaid + "\n```")
 
